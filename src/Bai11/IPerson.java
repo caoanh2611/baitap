@@ -2,12 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package luyenoppdenkhithi;
+package Bai11;
 
-/**
- *
- * @author TGDD
- */
-class Preson {
-    
+
+interface IPerson {
+    public void displayDetails();
+    public double calculateIncome();
 }
